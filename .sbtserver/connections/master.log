@@ -1,0 +1,28 @@
+New log file opened at Sun Mar 27 18:19:07 BRT 2016 by 5152@DESKTOP-S6G56J7
+Taking next connection to: 60327
+New client attempting to connect on port: 60328-60327
+  Address = /169.254.80.80:60327
+This client on port 60328 has uuid 08e0b083-d018-4d78-99a9-0ecfb09804e1 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-08e0b083-d018-4d78-99a9-0ecfb09804e1
+Taking next connection to: 60327
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60327
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60327
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60327
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60327
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60327
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60327
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60327
