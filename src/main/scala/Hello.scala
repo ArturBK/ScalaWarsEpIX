@@ -13,7 +13,9 @@ object Hello {
 
   implicit val formats = DefaultFormats
 
-  case class Person(name: String, height: String)
+  //case class Person(name: String, height: String)
+  case class Person(name: String,height: String,mass: String,hair_color: String,skin_color: String,eye_color: String,birth_year: String,gender: String,homeworld: List,films: String,species: String,vehicles: String,starships: String,created: String,edited: String,url: String)
+
 
   def main(args: Array[String]): Unit = {
     def GetUrlContent = {
@@ -36,7 +38,7 @@ object Hello {
         inputStream.close
       }
       httpClient.getConnectionManager().shutdown()
-      
+
       println(parse(content).extract[Person])
 
       return content
