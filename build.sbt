@@ -9,3 +9,5 @@ libraryDependencies ++= Seq("org.scalatest" %% "scalatest" % "2.2.4" % "test",
                             "org.json4s" % "json4s-native_2.11" % "3.3.0")
 
 fork in run := true
+
+fork in run := true

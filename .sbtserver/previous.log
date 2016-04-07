@@ -1,5 +1,5 @@
-New log file opened at Tue Mar 29 17:28:33 BRT 2016 by 4168@pc-ilegra-ab
-jvm 4168@pc-ilegra-ab
+New log file opened at Thu Apr 07 10:37:59 BRT 2016 by 2920@pc-ilegra-ab
+jvm 2920@pc-ilegra-ab
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.65-b01
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\project, returning: (scalawarsepix-build)
 Loading project definition from C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@20e49cfc, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@10661e2a, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -64,729 +64,9 @@ Set current project to hello-scala (in build file:/C:/Users/Artur/Desktop/ScalaW
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@3b8fe7f9, check cycles: false
-Read from stdout: Updating {file:/C:/Users/Artur/Desktop/ScalaWars/ScalaWarsEpIX/}scalawarsepix...
-Updating {file:/C:/Users/Artur/Desktop/ScalaWars/ScalaWarsEpIX/}scalawarsepix...
-Other repositories:
-Default repositories:
-Using inline dependencies specified in Scala.
-:: resolving dependencies :: hello-scala#hello-scala_2.11;1.0
-	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
-	validate = true
-	refresh = false
-resolving dependencies for configuration 'compile'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-Read from stdout: Resolving org.scala-lang#scala-library;2.11.7 ...
-Resolving org.scala-lang#scala-library;2.11.7 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6466a66d
-sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
-	found org.scala-lang#scala-library;2.11.7 in sbt-chain
-	[2.11.7] org.scala-lang#scala-library;2.11.7
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->default(compile)]
-Read from stdout: Resolving org.apache.httpcomponents#httpclient;4.0-alpha4 ...
-Resolving org.apache.httpcomponents#httpclient;4.0-alpha4 ...
-sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.0-alpha4 {compile=[default(compile)]}
-sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0-alpha4
-	found org.apache.httpcomponents#httpclient;4.0-alpha4 in sbt-chain
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->master(compile)]
-Read from stdout: Resolving org.apache.httpcomponents#httpcore;4.0-beta1 ...
-Resolving org.apache.httpcomponents#httpcore;4.0-beta1 ...
-sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.0-beta1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0-beta1
-	found org.apache.httpcomponents#httpcore;4.0-beta1 in sbt-chain
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->master(compile)]
-Read from stdout: Resolving commons-logging#commons-logging;1.1.1 ...
-Resolving commons-logging#commons-logging;1.1.1 ...
-sbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
-	found commons-logging#commons-logging;1.1.1 in sbt-chain
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->master(compile)]
-Read from stdout: Resolving commons-codec#commons-codec;1.3 ...
-Resolving commons-codec#commons-codec;1.3 ...
-sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: commons-codec#commons-codec;1.3
-	found commons-codec#commons-codec;1.3 in sbt-chain
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->default(compile)]
-Read from stdout: Resolving net.liftweb#lift-json;2.0 ...
-Resolving net.liftweb#lift-json;2.0 ...
-sbt-chain: Checking cache for: dependency: net.liftweb#lift-json;2.0 {compile=[default(compile)]}
-Read from stdout: Resolving net.liftweb#lift-json;2.0 ...
-Resolving net.liftweb#lift-json;2.0 ...
-sbt-chain-delegate: Checking cache for: dependency: net.liftweb#lift-json;2.0 {compile=[default(compile)]}
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\lift-json\2.0\ivys\ivy.xml
-	local: no ivy file found for net.liftweb#lift-json;2.0
-		tried https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.pom
-	public: found md file for net.liftweb#lift-json;2.0
-		=> https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.pom (2.0)
-downloading https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.pom ...
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.pom
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.pom.sha1
-sha1 OK for https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.pom
-	[SUCCESSFUL ] net.liftweb#lift-json;2.0!lift-json.pom(pom.original) (605ms)
-Read from stdout: Resolving net.liftweb#lift-base;2.0 ...
-Resolving net.liftweb#lift-base;2.0 ...
-sbt-chain: Checking cache for: dependency: net.liftweb#lift-base;2.0 {}
-Read from stdout: Resolving net.liftweb#lift-base;2.0 ...
-Resolving net.liftweb#lift-base;2.0 ...
-sbt-chain-delegate: Checking cache for: dependency: net.liftweb#lift-base;2.0 {}
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\lift-base\2.0\ivys\ivy.xml
-	local: no ivy file found for net.liftweb#lift-base;2.0
-		tried https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.pom
-	public: found md file for net.liftweb#lift-base;2.0
-		=> https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.pom (2.0)
-downloading https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.pom ...
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.pom
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.pom.sha1
-sha1 OK for https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.pom
-	[SUCCESSFUL ] net.liftweb#lift-base;2.0!lift-base.pom(pom.original) (599ms)
-Read from stdout: Resolving net.liftweb#framework;2.0 ...
-Resolving net.liftweb#framework;2.0 ...
-sbt-chain: Checking cache for: dependency: net.liftweb#framework;2.0 {}
-Read from stdout: Resolving net.liftweb#framework;2.0 ...
-Resolving net.liftweb#framework;2.0 ...
-sbt-chain-delegate: Checking cache for: dependency: net.liftweb#framework;2.0 {}
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\framework\2.0\ivys\ivy.xml
-	local: no ivy file found for net.liftweb#framework;2.0
-		tried https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.pom
-	public: found md file for net.liftweb#framework;2.0
-		=> https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.pom (2.0)
-downloading https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.pom ...
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.pom
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.pom.sha1
-sha1 OK for https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.pom
-	[SUCCESSFUL ] net.liftweb#framework;2.0!framework.pom(pom.original) (582ms)
-Read from stdout: Resolving net.liftweb#lift-parent;2.0 ...
-Resolving net.liftweb#lift-parent;2.0 ...
-sbt-chain: Checking cache for: dependency: net.liftweb#lift-parent;2.0 {}
-Read from stdout: Resolving net.liftweb#lift-parent;2.0 ...
-Resolving net.liftweb#lift-parent;2.0 ...
-sbt-chain-delegate: Checking cache for: dependency: net.liftweb#lift-parent;2.0 {}
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\lift-parent\2.0\ivys\ivy.xml
-	local: no ivy file found for net.liftweb#lift-parent;2.0
-		tried https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.pom
-	public: found md file for net.liftweb#lift-parent;2.0
-		=> https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.pom (2.0)
-downloading https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.pom ...
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.pom
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.pom.sha1
-sha1 OK for https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.pom
-	[SUCCESSFUL ] net.liftweb#lift-parent;2.0!lift-parent.pom(pom.original) (865ms)
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\lift-parent\2.0\jars\lift-parent.jar
-		tried https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.jar
-CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/liftweb/lift-parent/2.0/lift-parent-2.0.jar
-		tried http://repo.typesafe.com/typesafe/releases/net/liftweb/lift-parent/2.0/lift-parent-2.0.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/net/liftweb/lift-parent/2.0/lift-parent-2.0.jar
-		tried http://repo.typesafe.com/typesafe/ivy-releases/net.liftweb/lift-parent/2.0/jars/lift-parent.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.liftweb/lift-parent/2.0/jars/lift-parent.jar
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\framework\2.0\jars\framework.jar
-		tried https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.jar
-CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/liftweb/framework/2.0/framework-2.0.jar
-		tried http://repo.typesafe.com/typesafe/releases/net/liftweb/framework/2.0/framework-2.0.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/net/liftweb/framework/2.0/framework-2.0.jar
-		tried http://repo.typesafe.com/typesafe/ivy-releases/net.liftweb/framework/2.0/jars/framework.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.liftweb/framework/2.0/jars/framework.jar
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\lift-base\2.0\jars\lift-base.jar
-		tried https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.jar
-CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/liftweb/lift-base/2.0/lift-base-2.0.jar
-		tried http://repo.typesafe.com/typesafe/releases/net/liftweb/lift-base/2.0/lift-base-2.0.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/net/liftweb/lift-base/2.0/lift-base-2.0.jar
-		tried http://repo.typesafe.com/typesafe/ivy-releases/net.liftweb/lift-base/2.0/jars/lift-base.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/net.liftweb/lift-base/2.0/jars/lift-base.jar
-		tried C:\Users\Artur\.ivy2\local\net.liftweb\lift-json\2.0\jars\lift-json.jar
-		tried https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar
-	found net.liftweb#lift-json;2.0 in public
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->compile]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->master(compile)]
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@44f67832
-Read from stdout: Resolving com.thoughtworks.paranamer#paranamer;2.0 ...
-Resolving com.thoughtworks.paranamer#paranamer;2.0 ...
-sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-Read from stdout: Resolving com.thoughtworks.paranamer#paranamer;2.0 ...
-Resolving com.thoughtworks.paranamer#paranamer;2.0 ...
-sbt-chain-delegate: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-		tried C:\Users\Artur\.ivy2\local\com.thoughtworks.paranamer\paranamer\2.0\ivys\ivy.xml
-	local: no ivy file found for com.thoughtworks.paranamer#paranamer;2.0
-		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.pom
-	public: found md file for com.thoughtworks.paranamer#paranamer;2.0
-		=> https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.pom (2.0)
-downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.pom ...
-	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.pom
-	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.pom.sha1
-sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.pom
-	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.0!paranamer.pom(pom.original) (582ms)
-Read from stdout: Resolving com.thoughtworks.paranamer#paranamer-parent;2.0 ...
-Resolving com.thoughtworks.paranamer#paranamer-parent;2.0 ...
-sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer-parent;2.0 {}
-Read from stdout: Resolving com.thoughtworks.paranamer#paranamer-parent;2.0 ...
-Resolving com.thoughtworks.paranamer#paranamer-parent;2.0 ...
-sbt-chain-delegate: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer-parent;2.0 {}
-		tried C:\Users\Artur\.ivy2\local\com.thoughtworks.paranamer\paranamer-parent\2.0\ivys\ivy.xml
-	local: no ivy file found for com.thoughtworks.paranamer#paranamer-parent;2.0
-		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.pom
-	public: found md file for com.thoughtworks.paranamer#paranamer-parent;2.0
-		=> https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.pom (2.0)
-downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.pom ...
-	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.pom
-	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.pom.sha1
-sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.pom
-	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer-parent;2.0!paranamer-parent.pom(pom.original) (594ms)
-		tried C:\Users\Artur\.ivy2\local\com.thoughtworks.paranamer\paranamer-parent\2.0\jars\paranamer-parent.jar
-		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.jar
-CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.jar
-		tried http://repo.typesafe.com/typesafe/releases/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/thoughtworks/paranamer/paranamer-parent/2.0/paranamer-parent-2.0.jar
-		tried http://repo.typesafe.com/typesafe/ivy-releases/com.thoughtworks.paranamer/paranamer-parent/2.0/jars/paranamer-parent.jar
-CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.thoughtworks.paranamer/paranamer-parent/2.0/jars/paranamer-parent.jar
-		tried C:\Users\Artur\.ivy2\local\com.thoughtworks.paranamer\paranamer\2.0\jars\paranamer.jar
-		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar
-	found com.thoughtworks.paranamer#paranamer;2.0 in public
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->compile(*)]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->compile]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->compile]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->master]
-resolving dependencies for configuration 'runtime'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [runtime]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->compile]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->master(compile)]
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@74382598
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@3576a165
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->compile(*)]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->compile]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->master]
-resolving dependencies for configuration 'test'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [test]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [runtime]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->compile]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->master(compile)]
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@7cdda1f9
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@517b7893
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@4e44d814
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->compile(*)]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->compile]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
-Read from stdout: Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}
-sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
-	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.2 ...
-Resolving org.scala-lang#scala-reflect;2.11.2 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
-	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
-	[2.11.2] org.scala-lang#scala-reflect;2.11.2
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
-Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
-	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
-resolving dependencies for configuration 'provided'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [provided]
-resolving dependencies for configuration 'optional'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [optional]
-resolving dependencies for configuration 'compile-internal'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [compile-internal]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->compile]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->master(compile)]
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@45a0aaba
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@58505a0b
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@5938e1fa
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@6e02224
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->compile(*)]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->compile]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->master]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [optional]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [provided]
-resolving dependencies for configuration 'runtime-internal'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [runtime-internal]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [runtime]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->compile]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->master(compile)]
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@6444e7a5
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@613514d8
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@575bfdf3
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@6555a49e
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->compile(*)]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->compile]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->master]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [optional]
-resolving dependencies for configuration 'test-internal'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [test-internal]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [test]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [runtime]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->master(compile)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [compile->compile(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->org.apache.httpcomponents#httpcore;4.0-beta1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-logging#commons-logging;1.1.1 [runtime->compile]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->runtime(*)]
-== resolving dependencies org.apache.httpcomponents#httpclient;4.0-alpha4->commons-codec#commons-codec;1.3 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.apache.httpcomponents#httpclient;4.0-alpha4 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->compile]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->master(compile)]
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@331870f
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@b79837
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@3e53684c
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@45d57c67
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@4ad3822d
-dependency descriptor has been mediated: sbt.ivyint.MergedDescriptors@6466a66d => sbt.ivyint.MergedDescriptors@7699dd60
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [compile->compile(*)]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->com.thoughtworks.paranamer#paranamer;2.0 [runtime->compile]
-dependency descriptor has been mediated: dependency: junit#junit;4.3.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.7 {test=[runtime(*), master(compile)]}
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.7.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies net.liftweb#lift-json;2.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->net.liftweb#lift-json;2.0 [compile->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
-== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->master]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [optional]
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [provided]
-resolving dependencies for configuration 'plugin'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [plugin]
-resolving dependencies for configuration 'sources'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [sources]
-resolving dependencies for configuration 'docs'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [docs]
-resolving dependencies for configuration 'pom'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [pom]
-resolving dependencies for configuration 'scala-tool'
-== resolving dependencies for hello-scala#hello-scala_2.11;1.0 [scala-tool]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
-Read from stdout: Resolving org.scala-lang#scala-compiler;2.11.7 ...
-Resolving org.scala-lang#scala-compiler;2.11.7 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
-sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
-	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
-Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.7 ...
-Resolving org.scala-lang#scala-reflect;2.11.7 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
-	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
-	[2.11.7] org.scala-lang#scala-reflect;2.11.7
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(*)]
-Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
-	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(*)]
-Read from stdout: Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)]
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(*)]
-Read from stdout: Resolving jline#jline;2.12.1 ...
-Resolving jline#jline;2.12.1 ...
-sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(*)]}
-sbt-chain: module revision found in cache: jline#jline;2.12.1
-	found jline#jline;2.12.1 in sbt-chain
-== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
-== resolving dependencies hello-scala#hello-scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
-	resolved ivy file produced in cache
-:: downloading artifacts ::
-	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
-	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0-alpha4!httpclient.jar
-		tried https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar
-Read from stdout: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar ...
-downloading https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar ...
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar
-	public: downloading https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar.sha1
-sha1 OK for https://repo1.maven.org/maven2/net/liftweb/lift-json/2.0/lift-json-2.0.jar
-Read from stdout: 	[SUCCESSFUL ] net.liftweb#lift-json;2.0!lift-json.jar (2985ms)
-	[SUCCESSFUL ] net.liftweb#lift-json;2.0!lift-json.jar (2985ms)
-	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0-beta1!httpcore.jar
-	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
-	[NOT REQUIRED] commons-codec#commons-codec;1.3!commons-codec.jar
-		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar
-Read from stdout: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar ...
-downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar ...
-	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar
-	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar.sha1
-sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.0/paranamer-2.0.jar
-Read from stdout: 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.0!paranamer.jar (778ms)
-	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.0!paranamer.jar (778ms)
-	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
-	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
-	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
-	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
-	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
-	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
-	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
-	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-:: resolution report :: resolve 14256ms :: artifacts dl 4001ms
-	report for hello-scala#hello-scala_2.11;1.0 compile produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-compile.xml
-	report for hello-scala#hello-scala_2.11;1.0 runtime produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-runtime.xml
-	report for hello-scala#hello-scala_2.11;1.0 test produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-test.xml
-	report for hello-scala#hello-scala_2.11;1.0 provided produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-provided.xml
-	report for hello-scala#hello-scala_2.11;1.0 optional produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-optional.xml
-	report for hello-scala#hello-scala_2.11;1.0 compile-internal produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-compile-internal.xml
-	report for hello-scala#hello-scala_2.11;1.0 runtime-internal produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-runtime-internal.xml
-	report for hello-scala#hello-scala_2.11;1.0 test-internal produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-test-internal.xml
-	report for hello-scala#hello-scala_2.11;1.0 plugin produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-plugin.xml
-	report for hello-scala#hello-scala_2.11;1.0 sources produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-sources.xml
-	report for hello-scala#hello-scala_2.11;1.0 docs produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-docs.xml
-	report for hello-scala#hello-scala_2.11;1.0 pom produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-pom.xml
-	report for hello-scala#hello-scala_2.11;1.0 scala-tool produced in C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\resolution-cache\reports\hello-scala-hello-scala_2.11-scala-tool.xml
-	resolve done (14256ms resolve - 4001ms download)
-Read from stdout: Done updating.
-Done updating.
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 271437a5, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Scala compilation took 3.715136092 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 24 s, completed 29/03/2016 17:29:14
-> server-post-command-cleanup
-> server-handle-next-server-request
 > {file:/C:/Users/Artur/Desktop/ScalaWars/ScalaWarsEpIX/}scalawarsepix/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@7e6dc401, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@37a1deff, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -803,34 +83,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed 29/03/2016 17:29:14
+Total time: 0 s, completed 07/04/2016 10:38:04
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Artur/Desktop/ScalaWars/ScalaWarsEpIX/}scalawarsepix/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@3e32119c, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed 29/03/2016 17:29:15
+Running task... Cancel: sbt.server.ServerTaskCancellation@2eb587b2, check cycles: false
+Total time: 0 s, completed 07/04/2016 10:38:04
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Artur/Desktop/ScalaWars/ScalaWarsEpIX/}scalawarsepix/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@41e29124, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e9f3e25, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -847,27 +111,33 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 0 s, completed 29/03/2016 17:29:15
+Total time: 0 s, completed 07/04/2016 10:38:04
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Artur/Desktop/ScalaWars/ScalaWarsEpIX/}scalawarsepix/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@10406e3, check cycles: false
+Total time: 0 s, completed 07/04/2016 10:38:04
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@7261e533, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@381d89fb, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
 
 Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
 Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
@@ -878,719 +148,25 @@ Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.7
 Other repositories:
 Default repositories:
-Running cached compiler 14005614, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Running cached compiler 3c181827, interfacing (CompilerInterface) with Scala compiler version 2.11.7
 Calling Scala compiler with arguments  (CompilerInterface):
 	-bootclasspath
 	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
 	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:23: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:23: not found: type Address
-Read from stdout: case class Person(name: String, address: Address,
-      case class Person(name: String, address: Address,
-Read from stdout: ^
-                                               ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:24: not found: type Child
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:24: not found: type Child
-Read from stdout: children: List[Child])
-                        children: List[Child])
-Read from stdout: ^
-                                       ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value json
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-      ^
-Read from stdout: three errors found
-three errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 1 s, completed 29/03/2016 17:29:46
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1c5e4f34, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler ec9c870, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:25: not found: value json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:25: not found: value json
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:25: not found: type Person
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:25: not found: type Person
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-                   ^
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:29:55
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2e5cd1f1, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 5f5c556e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address,
-  class Person(name: String, address: Address,
-Read from stdout: ^
-                                      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:14: not found: type Child
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:14: not found: type Child
-Read from stdout: children: List[Child])
-               children: List[Child])
-Read from stdout: ^
-                              ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:28: not found: value json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:28: not found: value json
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-      ^
-Read from stdout: three errors found
-three errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:29:59
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1476b032, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 3776cfb7, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address)
-  class Person(name: String, address: Address)
-Read from stdout: ^
-                                      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:27: not found: value json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:27: not found: value json
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-      ^
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:30:09
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2f52bf35, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 1cab115d, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: unclosed multi-line string literal
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: unclosed multi-line string literal
-Read from stdout: val json = parse("""
-      val json = parse("""
-Read from stdout: ^
-                       ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:45: illegal start of simple expression
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:45: illegal start of simple expression
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:31:02
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@61861baf, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 6b834dee, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address)
-  class Person(name: String, address: Address)
-Read from stdout: ^
-                                      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-Read from stdout: val json = parse(url)
-      val json = parse(url)
-Read from stdout: ^
-                 ^
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:31:06
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@5f7fc353, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 142a5a77, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address)
-  class Person(name: String, address: Address)
-Read from stdout: ^
-                                      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-Read from stdout: val json = parse(url) 
-      val json = parse(url) 
-Read from stdout: ^
-                 ^
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:31:42
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2a69f419, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 4d77c3cf, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address)
-  class Person(name: String, address: Address)
-Read from stdout: ^
-                                      ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:32:06
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@6d0d8778, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 446afda1, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address)
-  class Person(name: String, address: Address)
-Read from stdout: ^
-                                      ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:32:29
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@28569bdc, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 454aefba, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: ';' expected but '=' found.
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: ';' expected but '=' found.
-Read from stdout: class Person(name: String, address: Address) = {
-  class Person(name: String, address: Address) = {
-Read from stdout: ^
-                                               ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:32:53
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@7af34f2a, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 75b15629, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: ';' expected but '=' found.
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: ';' expected but '=' found.
-Read from stdout: class Person(name: String, address: Address) = {
-  class Person(name: String, address: Address) = {
-Read from stdout: ^
-                                               ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:33:03
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@7e7c8a92, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 50b7b7b7, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address) {
-  class Person(name: String, address: Address) {
-Read from stdout: ^
-                                      ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:35:03
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@292e9602, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 180a281c, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:13: not found: type Address
-Read from stdout: class Person(name: String, address: Address) {
-  class Person(name: String, address: Address) {
-Read from stdout: ^
-                                      ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:35:19
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@6f1bcf0c, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 46eb1d5e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Scala compilation took 0.348448489 s
-Invalidating C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala...
-Invalidating (transitively) by inheritance from C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala...
-Initial set of included nodes: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Invalidated by transitive inheritance dependency: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-The C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, <init>, Person, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Scala compilation took 3.367202153 s
 New invalidations:
 	Set()
 Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 0 s, completed 29/03/2016 17:35:31
+Total time: 4 s, completed 07/04/2016 10:38:37
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRunMain Hello
 Evaluating tasks: compile:backgroundRunMain
-Running task... Cancel: sbt.server.ServerTaskCancellation@76467474, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@a37ffa0, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -1609,27 +185,41 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-Total time: 0 s, completed 29/03/2016 17:35:32
+Total time: 0 s, completed 07/04/2016 10:38:37
 > server-post-command-cleanup
 > server-handle-next-server-request
+Exception in thread "sbt-bg-threads-1" java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@6d0293b3, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e1d9b97, check cycles: false
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
 
 Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
 Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
@@ -1640,19 +230,19 @@ Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.7
 Other repositories:
 Default repositories:
-Running cached compiler 333364b0, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Running cached compiler 696f9377, interfacing (CompilerInterface) with Scala compiler version 2.11.7
 Calling Scala compiler with arguments  (CompilerInterface):
 	-bootclasspath
 	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
 	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Scala compilation took 0.382402993 s
-Invalidating C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala...
-Invalidating (transitively) by inheritance from C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala...
-Initial set of included nodes: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Invalidated by transitive inheritance dependency: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-The C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala source file has the following regular definitions changed:
-	<init>.
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Scala compilation took 1.102329764 s
+Invalidating C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala...
+Invalidating (transitively) by inheritance from C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala...
+Initial set of included nodes: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
+The C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala source file has the following implicit definitions changed:
+	formats.
 All member reference dependencies will be considered within this context.
 New invalidations:
 	Set()
@@ -1660,12 +250,12 @@ Initial set of included nodes: Set()
 Previously invalidated, but (transitively) depend on new invalidations:
 	Set()
 All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 1 s, completed 29/03/2016 17:35:44
+Total time: 1 s, completed 07/04/2016 10:38:58
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRunMain Hello
 Evaluating tasks: compile:backgroundRunMain
-Running task... Cancel: sbt.server.ServerTaskCancellation@581c5724, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@16ff40e7, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -1684,29 +274,29 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-Total time: 0 s, completed 29/03/2016 17:35:45
+Total time: 0 s, completed 07/04/2016 10:38:58
 > server-post-command-cleanup
 > server-handle-next-server-request
 > compile
 Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@66b03c12, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@24a16e6c, check cycles: false
 
 Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+	removed:Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
+	added: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+	modified: Set()
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala, C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala, C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
 
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
 Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
 Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.7
@@ -1715,335 +305,53 @@ Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.7
 Other repositories:
 Default repositories:
-Running cached compiler 5710df0d, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Running cached compiler 3a1ea1f5, interfacing (CompilerInterface) with Scala compiler version 2.11.7
 Calling Scala compiler with arguments  (CompilerInterface):
 	-bootclasspath
 	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
 	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:28: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:28: not found: value parse
-Read from stdout: val json = parse(url)
-      val json = parse(url)
-Read from stdout: ^
-                 ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:35:51
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Scala compilation took 0.802436078 s
+Invalidating C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala...
+Invalidating (transitively) by inheritance from C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala...
+Initial set of included nodes: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
+The C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala source file has the following implicit definitions changed:
+	formats.
+All member reference dependencies will be considered within this context.
+Invalidating C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala...
+Invalidating (transitively) by inheritance from C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala...
+Initial set of included nodes: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala)
+The C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\People.scala source file has the following implicit definitions changed:
+	formats.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed 07/04/2016 10:39:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1699b7d1, check cycles: false
+
+Canceling execution...
+Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@2e87f8b2 rejected from java.util.concurrent.ThreadPoolExecutor@5309c942[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 18]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@2e87f8b2 rejected from java.util.concurrent.ThreadPoolExecutor@5309c942[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 18]
+Use 'last' for the full log.
 > server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@bbecf45, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 66c94102, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-Read from stdout: parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-    parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: value extract is not a member of String
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: value extract is not a member of String
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-           ^
-Read from stdout: two errors found
-two errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:37:20
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@19a3d862, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 5c419181, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-Read from stdout: parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-    parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: not found: value Json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: not found: value Json
-Read from stdout: Json
-      Json
-Read from stdout: ^
-      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:33: value extract is not a member of String
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:33: value extract is not a member of String
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-           ^
-Read from stdout: three errors found
-three errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:47:17
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@15050f47, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 1a6f4b39, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-Read from stdout: parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-    parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: not found: value Json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: not found: value Json
-Read from stdout: Json
-      Json
-Read from stdout: ^
-      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:33: value extract is not a member of String
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:33: value extract is not a member of String
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-           ^
-Read from stdout: three errors found
-three errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:47:52
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@5d235dae, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler e250981, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:26: not found: value parse
-Read from stdout: parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-    parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: not found: value Json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:32: not found: value Json
-Read from stdout: Json
-      Json
-Read from stdout: ^
-      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:33: value extract is not a member of String
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:33: value extract is not a member of String
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-           ^
-Read from stdout: three errors found
-three errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:47:54
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@7d26e56c, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 709556e0, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
-	-classpath
-	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\net.liftweb\lift-json\jars\lift-json-2.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.0.jar
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:10: object json4s is not a member of package org
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:10: object json4s is not a member of package org
-Read from stdout: import org.json4s._
-import org.json4s._
-Read from stdout: ^
-           ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:11: object json4s is not a member of package org
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:11: object json4s is not a member of package org
-Read from stdout: import org.json4s.native.JsonMethods._
-import org.json4s.native.JsonMethods._
-Read from stdout: ^
-           ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:28: not found: value parse
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:28: not found: value parse
-Read from stdout: parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-    parse[Person]("""{"id":1,"name":"Coda"}""") //=> Person(1,"Coda")
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:34: not found: value Json
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:34: not found: value Json
-Read from stdout: Json
-      Json
-Read from stdout: ^
-      ^
-Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:35: value extract is not a member of String
-C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\Hello.scala:35: value extract is not a member of String
-Read from stdout: json.extract[Person]
-      json.extract[Person]
-Read from stdout: ^
-           ^
-Read from stdout: 5 errors found
-5 errors found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:compileIncremental) Compilation failed
-Total time: 0 s, completed 29/03/2016 17:50:21
+> backgroundRunMain Hello
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ee73de2, check cycles: false
+registered more than once? streams-manager
+registered more than once? streams-manager
+Use 'last' for the full log.
 > server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
@@ -2053,4 +361,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 4168@pc-ilegra-ab logs at Tue Mar 29 17:50:58 BRT 2016, goodbye.
+Closing the 2920@pc-ilegra-ab logs at Thu Apr 07 10:39:45 BRT 2016, goodbye.
