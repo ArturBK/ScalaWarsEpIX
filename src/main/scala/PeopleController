@@ -8,8 +8,9 @@ import org.apache.http.impl.client.DefaultHttpClient
 import scala.collection.mutable.StringBuilder
 import org.json4s._
 import org.json4s.native.JsonMethods._
+import BaseController
 
-object PeopleController {
+object PeopleController extends BaseController{
 
   val Url = "http://swapi.co/api/people"
   implicit val formats = DefaultFormats
