@@ -12,6 +12,6 @@ import org.json4s.native.JsonMethods._
 object Hello {
   def main(args: Array[String]): Unit = {
     println(PeopleController.GetPeople)
-    println(SpeciesController.GetSpecies)
+    println(SpeciesController.GetSpecies) 
   }
 }
