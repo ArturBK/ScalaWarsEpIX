@@ -1121,3 +1121,1183 @@ Copy resource mappings:
 Total time: 0 s, completed 26/04/2016 16:13:17
 > server-post-command-cleanup
 > server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@40c44b4a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 4174455c, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: value fi is not a member of scala.collection.immutable.Map[String,List[PeopleController.Person]]
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: value fi is not a member of scala.collection.immutable.Map[String,List[PeopleController.Person]]
+Read from stdout: PeopleController.GetPeople.groupBy(_.species(0)).fi
+      PeopleController.GetPeople.groupBy(_.species(0)).fi
+Read from stdout: ^
+                                                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:17:05
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@13afa0e9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 26/04/2016 16:18:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain Hello
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@686dc396, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 0 s, completed 26/04/2016 16:18:06
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@39da7f0e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 60fdaca6, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.filter((p) => p._2 == "c")
+    map.filter((p) => p._2 == "c")
+Read from stdout: ^
+    ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:18:33
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4bfc0224, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 66fd37f7, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: illegal character '\u00a0'
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: illegal character '\u00a0'
+Read from stdout:  def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+   def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+  ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:22: illegal character '\u00a0'
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:22: illegal character '\u00a0'
+Read from stdout:  
+   
+Read from stdout: ^
+  ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:21:42
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1f9ceb5e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 11257f32, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:22: illegal character '\u00a0'
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:22: illegal character '\u00a0'
+Read from stdout:  
+   
+Read from stdout: ^
+  ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:21:44
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6d8ffd8f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 2200a3e, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:23: illegal character '\u00a0'
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:23: illegal character '\u00a0'
+Read from stdout:  
+   
+Read from stdout: ^
+  ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:22:09
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@71daece, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 74874c6a, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:23: illegal character '\u00a0'
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:23: illegal character '\u00a0'
+Read from stdout:  
+   
+Read from stdout: ^
+  ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:22:17
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3aaa89a3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 3b22671b, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:22: illegal character '\u00a0'
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:22: illegal character '\u00a0'
+Read from stdout:  
+   
+Read from stdout: ^
+  ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:23:57
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@37188e7d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 69df790d, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: illegal character '\u00a0'
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: illegal character '\u00a0'
+Read from stdout:  
+   
+Read from stdout: ^
+  ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:24:08
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@167f1aa6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 74574394, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+                   ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p1
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p1
+Read from stdout: def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+  def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+                                                                                                   ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p2
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p2
+Read from stdout: def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+  def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+                                                                                                                   ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p1
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p1
+Read from stdout: def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+  def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+                                                                                                                                  ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p2
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:20: not found: value p2
+Read from stdout: def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+  def max(s1: PeopleController.Person, s2: PeopleController.Person): PeopleController.Person = if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+                                                                                                                                          ^
+Read from stdout: 7 errors found
+7 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:24:35
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1f8215b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 49545e35, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+                   ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p1
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p1
+Read from stdout: if (p1.birth_year > p2.birth_year) p1 else p2
+    if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+        ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p2
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p2
+Read from stdout: if (p1.birth_year > p2.birth_year) p1 else p2
+    if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+                        ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p1
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p1
+Read from stdout: if (p1.birth_year > p2.birth_year) p1 else p2
+    if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+                                       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p2
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:21: not found: value p2
+Read from stdout: if (p1.birth_year > p2.birth_year) p1 else p2
+    if (p1.birth_year > p2.birth_year) p1 else p2
+Read from stdout: ^
+                                               ^
+Read from stdout: 7 errors found
+7 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:25:03
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2ad13821, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 6ecfab9b, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+                   ^
+Read from stdout: three errors found
+three errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:25:19
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b521163, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1968da1b, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0)).sortBy(_.birth_year)
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0)).sortBy(_.birth_year)
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: missing arguments for method max in object RescueController;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: map.reduceLeft(max)
+    map.reduceLeft(max)
+Read from stdout: ^
+                   ^
+Read from stdout: three errors found
+three errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:29:54
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@54db8d63, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 3c592fb7, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0)).sortBy(_.birth_year)
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0)).sortBy(_.birth_year)
+Read from stdout: ^
+       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:29:58
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@9135795, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 2a42496d, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.sortBy(_.birth_year)
+    map.sortBy(_.birth_year)
+Read from stdout: ^
+    ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:30:42
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@59e7b4f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 47956a89, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.sortBy(_.birth_year)
+    map.sortBy(_.birth_year)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:18: type mismatch;
+Read from stdout: found   : List[(String, Int)]
+Read from stdout: required: Map[String,List[PeopleController.Person]]
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:18: type mismatch;
+ found   : List[(String, Int)]
+ required: Map[String,List[PeopleController.Person]]
+Read from stdout: Map("foo"->3, "raise"->1, "the"->2, "bar"->4).toList sortBy {_._2}
+    Map("foo"->3, "raise"->1, "the"->2, "bar"->4).toList sortBy {_._2}
+Read from stdout: ^
+                                                         ^
+Read from stdout: three errors found
+three errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:33:08
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@24df118a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 31ead1d5, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.sortBy(m -> m._2.birth_year)
+    map.sortBy(m -> m._2.birth_year)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+Read from stdout: map.sortBy(m -> m._2.birth_year)
+    map.sortBy(m -> m._2.birth_year)
+Read from stdout: ^
+               ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+Read from stdout: map.sortBy(m -> m._2.birth_year)
+    map.sortBy(m -> m._2.birth_year)
+Read from stdout: ^
+                    ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:33:42
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3a4c026e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 700309a1, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: map.sortBy((m) -> m._2.birth_year)
+    map.sortBy((m) -> m._2.birth_year)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+Read from stdout: map.sortBy((m) -> m._2.birth_year)
+    map.sortBy((m) -> m._2.birth_year)
+Read from stdout: ^
+                ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value m
+Read from stdout: map.sortBy((m) -> m._2.birth_year)
+    map.sortBy((m) -> m._2.birth_year)
+Read from stdout: ^
+                      ^
+Read from stdout: four errors found
+four errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:34:03
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b7a8554, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 21e1033a, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value ListMap
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value ListMap
+Read from stdout: ListMap(map.toSeq.sortWith(_._1 > _._1):_*)
+    ListMap(map.toSeq.sortWith(_._1 > _._1):_*)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: ListMap(map.toSeq.sortWith(_._1 > _._1):_*)
+    ListMap(map.toSeq.sortWith(_._1 > _._1):_*)
+Read from stdout: ^
+            ^
+Read from stdout: three errors found
+three errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:35:16
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7a775ddc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 7709fcb5, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Artur\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+	-classpath
+	C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\target\scala-2.11\classes;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.0-alpha4.jar;C:\Users\Artur\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.0-beta1.jar;C:\Users\Artur\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Artur\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.3.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-native_2.11\jars\json4s-native_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-core_2.11\jars\json4s-core_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-ast_2.11\jars\json4s-ast_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\org.json4s\json4s-scalap_2.11\jars\json4s-scalap_2.11-3.3.0.jar;C:\Users\Artur\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar;C:\Users\Artur\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+Read from stdout: follow this method with `_' if you want to treat it as a partially applied function
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:16: missing arguments for method apply in class GenMapFactory;
+follow this method with `_' if you want to treat it as a partially applied function
+Read from stdout: Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+    Map[String, List[PeopleController.Person]] map = PeopleController.GetPeople.groupBy(_.species(0))
+Read from stdout: ^
+       ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value ListMap
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value ListMap
+Read from stdout: ListMap(map.toSeq.sortWith(_._birth_year > _._birth_year):_*)
+    ListMap(map.toSeq.sortWith(_._birth_year > _._birth_year):_*)
+Read from stdout: ^
+    ^
+Read from stdout: C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+C:\Users\Artur\Desktop\ScalaWars\ScalaWarsEpIX\src\main\scala\RescueController.scala:17: not found: value map
+Read from stdout: ListMap(map.toSeq.sortWith(_._birth_year > _._birth_year):_*)
+    ListMap(map.toSeq.sortWith(_._birth_year > _._birth_year):_*)
+Read from stdout: ^
+            ^
+Read from stdout: three errors found
+three errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 0 s, completed 26/04/2016 16:35:50
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request

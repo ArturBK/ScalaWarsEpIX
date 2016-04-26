@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaaa9600-c22a-4449-83c2-de728e91025a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/BaseController" afterPath="$PROJECT_DIR$/src/main/scala/BaseController.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/PeopleController" afterPath="$PROJECT_DIR$/src/main/scala/PeopleController.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/RescueService" afterPath="$PROJECT_DIR$/src/main/scala/RescueController.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/SpeciesController" afterPath="$PROJECT_DIR$/src/main/scala/SpeciesController.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/connections/activator-5af48dac-572a-4e30-b28a-b204a9374cbe.log" afterPath="$PROJECT_DIR$/.sbtserver/connections/activator-5af48dac-572a-4e30-b28a-b204a9374cbe.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/connections/activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6.log" afterPath="$PROJECT_DIR$/.sbtserver/connections/activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/connections/master.log" afterPath="$PROJECT_DIR$/.sbtserver/connections/master.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/master.log" afterPath="$PROJECT_DIR$/.sbtserver/master.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/previous.log" afterPath="$PROJECT_DIR$/.sbtserver/previous.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/RUNNING_PID" afterPath="$PROJECT_DIR$/bin/RUNNING_PID" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/.sbtserver" afterPath="$PROJECT_DIR$/project/.sbtserver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Hello.scala" afterPath="$PROJECT_DIR$/src/main/scala/Hello.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/RescueController.scala" afterPath="$PROJECT_DIR$/src/main/scala/RescueController.scala" />
     </list>
     <ignored path="ScalaWarsEpIX.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/RescueController.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -100,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/PeopleController.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="15" column="127" selection-start-line="15" selection-start-column="117" selection-end-line="15" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -153,8 +141,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="583" />
-    <option name="y" value="269" />
+    <option name="x" value="317" />
+    <option name="y" value="213" />
     <option name="width" value="1400" />
     <option name="height" value="951" />
   </component>
@@ -552,7 +540,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="269" width="1400" height="951" extended-state="0" />
+    <frame x="317" y="213" width="1400" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -643,6 +631,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SpeciesController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PeopleController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="127" selection-start-line="15" selection-start-column="117" selection-end-line="15" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/BaseController.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -663,26 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SpeciesController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/PeopleController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/RescueController.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
