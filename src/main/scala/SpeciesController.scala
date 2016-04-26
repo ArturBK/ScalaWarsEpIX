@@ -9,20 +9,19 @@ import scala.collection.mutable.StringBuilder
 import org.json4s._
 import org.json4s.native.JsonMethods._
 
-object SpeciesController extends BaseController {
-
-  val Url = "http://swapi.co/api/species/?page=1&format=json\"
+object SpeciesController {
+ 
+  val Url = "http://swapi.co/api/species/?page=1&format=json" 
   implicit val formats = DefaultFormats
   case class Specie(name: String, classification : String, designation : String, average_height : String,
                     average_lifespan : String, eye_colors : String, hair_colors : String, skin_colors : String, homeworld: String, language : String,
-                    created : String, edited : String, url : String, people : String, films : String)
-  case class Species(people : List[Specie])
-  case class SpeciesPage(count : String, next : String, previous : String, species : List[Specie])
+                    created : String, edited : String, url : String)
+  case class SpeciesPage(count : String, next : String, previous : String, results : List[Specie])
 
 
-  def GetSpecies : List[Person] = {
+  def GetSpecies : List[Specie] = {
     var content: String = GetContent(Url)
-    return parse(content).extract[SpeciesPage].people
+    return parse(content).extract[SpeciesPage].results
   }
 
   //repetido

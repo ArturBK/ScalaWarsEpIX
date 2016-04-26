@@ -9,8 +9,10 @@ import scala.collection.mutable.StringBuilder
 import org.json4s._
 import org.json4s.native.JsonMethods._
 
-object RescueService {
-  def Rescue : List[Person] = {
-    //List[Person] oldestBySpecie = PeopleController.GetPeople)
-  }
+
+object RescueController {
+
+  def Rescue : Map[String, List[PeopleController.Person]] = {
+      PeopleController.GetPeople.groupBy(_.species(0))
+    }
 }
