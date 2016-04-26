@@ -4090,3 +4090,7 @@ Sending msg to client activator-5af48dac-572a-4e30-b28a-b204a9374cbe: DetachedLo
 Sending msg to client activator-5af48dac-572a-4e30-b28a-b204a9374cbe: ExecutionFailure(15)
 Sending msg to client activator-5af48dac-572a-4e30-b28a-b204a9374cbe: DetachedLogEvent(LogMessage(debug,> server-post-command-cleanup))
 Sending msg to client activator-5af48dac-572a-4e30-b28a-b204a9374cbe: DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request))
+Client activator-5af48dac-572a-4e30-b28a-b204a9374cbe closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client activator-5af48dac-572a-4e30-b28a-b204a9374cbe
+Client activator-5af48dac-572a-4e30-b28a-b204a9374cbe thread exiting.
