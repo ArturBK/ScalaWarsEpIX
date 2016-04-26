@@ -12216,3 +12216,7 @@ Sending msg to client activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6: DetachedLo
 Sending msg to client activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6: ExecutionFailure(44)
 Sending msg to client activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6: DetachedLogEvent(LogMessage(debug,> server-post-command-cleanup))
 Sending msg to client activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6: DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request))
+Client activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6 closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6
+Client activator-0bce7e89-702a-4fff-9f18-2d1c95c663a6 thread exiting.
