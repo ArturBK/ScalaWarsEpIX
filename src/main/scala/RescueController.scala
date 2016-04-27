@@ -13,10 +13,23 @@ import org.json4s.native.JsonMethods._
 object RescueController {
 
   def Rescue : Map[String, List[PeopleController.Person]] = {
-    PeopleController.GetPeople.groupBy(_.species(0))
+    SaveAll(PeopleController.GetPeople.groupBy(_.species(0)))
+    SaveElder(PeopleController.GetPeople.groupBy(_.species(0)))
   }
 
   def max(p1: PeopleController.Person, p2: PeopleController.Person): PeopleController.Person = {
     if (p1.birth_year > p2.birth_year) p1 else p2
+  }
+
+  def SaveElder(people: Map[String, List[PeopleController.Person]]) : Map[String, List[PeopleController.Person]] = {
+    people
+  }
+
+  def SaveAll(people: Map[String, List[PeopleController.Person]]) : Map[String, List[PeopleController.Person]] = {
+    people
+  }
+
+  def ShipManager(people: Map[String, List[PeopleController.Person]]) : Map[String, List[PeopleController.Person]] = {
+    people
   }
 }

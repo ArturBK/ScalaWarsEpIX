@@ -35,4 +35,5 @@ object PeopleController  {
     httpClient.getConnectionManager().shutdown()
     content
   }
+
 }
