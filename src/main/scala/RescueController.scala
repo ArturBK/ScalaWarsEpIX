@@ -17,13 +17,16 @@ object RescueController {
     SaveElder(PeopleController.GetPeople.groupBy(_.species(0)))
   }
 
-  def max(p1: PeopleController.Person, p2: PeopleController.Person): PeopleController.Person = {
-    if (p1.birth_year > p2.birth_year) p1 else p2
+  def SaveElder(people: Map[String, List[PeopleController.Person]]) : List[PeopleController.Person]] = {
+    people map { case (specie, people) => people.sortBy(p => p).head } toList
   }
 
-  def SaveElder(people: Map[String, List[PeopleController.Person]]) : Map[String, List[PeopleController.Person]] = {
-    people
+  def SaveNonSpecial(people: Map[String, List[PeopleController.Person]])  List[PeopleController.Person]] = {
+    people map { case (specie, people) => people.sortBy(p => p).tail} toList).flatten
   }
+
+  def extractElders(allPeople: List[Person]) =
+    allPeople.groupBy(p => p.urlSpecie) map { case (specie, people) => people.sortBy(p => p).head } toList
 
   def SaveAll(people: Map[String, List[PeopleController.Person]]) : Map[String, List[PeopleController.Person]] = {
     people
